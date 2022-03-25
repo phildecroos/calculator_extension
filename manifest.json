@@ -1,0 +1,19 @@
+{
+    "name": "calculator",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "a simple calculator",
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "content_scripts": [
+
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "calculator"
+    }
+}
